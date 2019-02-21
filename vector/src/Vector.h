@@ -19,7 +19,7 @@ protected:
     void copyFrom(const T* A, Rank lo, Rank hi); // Copy the vector ranging from A[lo,hi)
     void expand(); // Expand if needed
     void shrink(); // Shrink if too much space in vector is null to save storage
-    bool bubble(Rank lo, Rank hi); // TODO:Sweep exchange
+    bool bubble(Rank lo, Rank hi); // Part of bubble sort
     void bubbleSort(Rank lo, Rank hi); // Bubble sort
     Rank max(Rank lo, Rank hi); // Find the rank of largest vector element
     void selectionSort(Rank lo, Rank hi);// Selection sort
@@ -67,8 +67,8 @@ public:
     void unsort(){unsort(0,_size);} // Unsort all elements
     int deduplicate(); // For unsorted vector
     int uniquify(); // For sorted vector
-    // Traverse
-    void traverse(void(*)(T&)); // Function pointer. Read-only or modify locally
+    // Traverse. Can be used to do some operations to all elements in the vector
+    void traverse(void(*)(T&)); // Function pointer. Read-only or modify locally.
     template <typename VST> void traverse(VST &); // Function object. It can modify globally.
 }; // Vector
 
