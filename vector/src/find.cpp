@@ -9,3 +9,5 @@ Rank Vector<T>::find(const T &e, Rank lo, Rank hi) const { //0<=lo<hi<=_size
     while ((lo<hi--)&&(_elem[hi] != e));
     return hi;
 }
+
+template class Vector<int>;

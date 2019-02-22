@@ -12,3 +12,5 @@ int Vector<T>::deduplicate() {
     }
     return oldSize-_size;
 }
+
+template class Vector<int>;

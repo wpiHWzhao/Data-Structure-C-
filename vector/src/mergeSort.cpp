@@ -27,9 +27,12 @@ void Vector<T>::merge(Rank lo, Rank mi, Rank hi) {
         if ((j<lb) && ((k>=lc)||(B[j]<=C[k]))) A[i++] = B[j++];
         if ((k<lc) && ((j>=lb)||(B[j]>C[k]))) A[i++] = C[k++]; // If we code like B[j]>=C[k], the stability of the code cannot be guaranteed
     }
+    delete []B;
     // Simple version:
 //    for ( Rank i = 0, j = 0, k = 0; j < lb; ) {
 //        if ( ( k < lc ) && ( C[k] < B[j] ) ) A[i++] = C[k++];
 //        if ( ( lc <= k ) || ( B[j] <= C[k] ) ) A[i++] = B[j++];
 //        }
 }
+
+template class Vector<int>;

@@ -13,3 +13,5 @@ Rank Vector<T>::search(const T &e, Rank lo, Rank hi) const {
     }
     return --lo;
 }
+
+template class Vector<int>;

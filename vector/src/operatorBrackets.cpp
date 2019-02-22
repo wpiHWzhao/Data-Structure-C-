@@ -13,3 +13,5 @@ template <typename T>
 T& Vector<T>::operator[](Rank r) { // Rvalue only
     return _elem[r];
 }
+
+template class Vector<int>;

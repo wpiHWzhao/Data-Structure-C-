@@ -12,3 +12,5 @@ int Vector<T>::disordered() const {
     }
     return n; // 0 if the vector is in order.
 }
+
+template class Vector<int>;

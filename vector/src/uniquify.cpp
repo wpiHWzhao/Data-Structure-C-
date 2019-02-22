@@ -17,3 +17,5 @@ int Vector<T> ::uniquify() {
     shrink();
     return j-i;
 }
+
+template class Vector<int>;

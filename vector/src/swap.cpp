@@ -5,8 +5,10 @@
 #include "Vector.h"
 
 template <typename T>
-void Vector<T>::swap(const T& e1, const T& e2) {
+void Vector<T>::swap(T& e1, T& e2) {
     T temp = e1;
     e1 = e2;
     e2 = temp;
 }
+
+template class Vector<int>;

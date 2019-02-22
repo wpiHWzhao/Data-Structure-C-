@@ -15,3 +15,5 @@ void Vector<T>::shrink() {
     }
     delete []oldElem;
 }
+
+template class Vector<int>;

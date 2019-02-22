@@ -22,3 +22,5 @@ bool Vector<T> ::bubble(Rank lo, Rank hi) {
     }
     return sorted;
 }
+
+template class Vector<int>;

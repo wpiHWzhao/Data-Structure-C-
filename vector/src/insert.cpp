@@ -14,3 +14,5 @@ Rank Vector<T>::insert(Rank r, const T &e) {
     _size++;
     return r;
 }
+
+template class Vector<int>;

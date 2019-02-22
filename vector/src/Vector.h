@@ -8,7 +8,7 @@
 typedef int Rank;
 #define DEFAULT_CAPACITY 3 //Default value, can be expand later
 
-#include <stdlib.h>
+#include <iostream>
 
 template <typename T> class Vector{
 protected:
@@ -22,13 +22,13 @@ protected:
     bool bubble(Rank lo, Rank hi); // Part of bubble sort
     void bubbleSort(Rank lo, Rank hi); // Bubble sort
     Rank max(Rank lo, Rank hi); // Find the rank of largest vector element
-    void selectionSort(Rank lo, Rank hi);// Selection sort
+    void selectionSort(Rank lo, Rank hi);// TODO:Selection sort
     void merge(Rank lo, Rank mi, Rank hi); // Merge algorithm
     void mergeSort(Rank lo, Rank hi); // Merge sort
-    Rank partition(Rank lo, Rank hi); // TODO: ??
-    void quickSort (Rank lo, Rank hi); // Quick sort
-    void heapSort (Rank lo, Rank hi); // Heap sort
-    void swap(const T&, const T&);
+    Rank partition(Rank lo, Rank hi); // TODO:
+    void quickSort (Rank lo, Rank hi); // TODO:Quick sort
+    void heapSort (Rank lo, Rank hi); // TODO:Heap sort
+    void swap(T&, T&);
 public:
     /// Constructors
     Vector(int c = DEFAULT_CAPACITY, int s =0, T v=0){ // Initial capacity is c, size is s, all element is v
@@ -42,7 +42,7 @@ public:
     Vector (const Vector<T> &V, Rank lo, Rank hi){copyFrom(V._elem, lo, hi);}
     // Destructors
     ~Vector(){delete [] _elem;}
-    // Read only ports
+    /// Read only ports
     Rank size() const { return _size;} // Return size
     bool empty() const { return !_size;} // Return if vector is empty
     int disordered() const; // Check if vector is sorted
@@ -70,6 +70,20 @@ public:
     // Traverse. Can be used to do some operations to all elements in the vector
     void traverse(void(*)(T&)); // Function pointer. Read-only or modify locally.
     template <typename VST> void traverse(VST &); // Function object. It can modify globally.
+    ///Operator overload
+    // Overload "<<" to print vector
+    friend std::ostream& operator << (std::ostream& os, const Vector<T>& v ){
+        if(v.size()==0) return os<<"The vector is empty";
+        else {
+            os << "[ ";
+            for (int i = 0; i < v.size(); ++i) {
+                os << v[i] << " ";
+            }
+            os << "]" << std::endl;
+        }
+        return os;
+    };
 }; // Vector
+
 
 #endif //VECTOR_VECTOR_H

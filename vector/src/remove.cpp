@@ -25,3 +25,5 @@ T Vector<T>::remove(Rank r){
         return -1;
     }
 }
+
+template class Vector<int>;

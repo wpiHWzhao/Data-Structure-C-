@@ -17,3 +17,5 @@ void Vector<T>::traverse(VST &visit) { // Functor
         visit(_elem[i]);
     }
 }
+
+template class Vector<int>;

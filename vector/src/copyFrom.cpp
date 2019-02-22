@@ -13,3 +13,4 @@ void Vector<T>::copyFrom(const T *A, Rank lo, Rank hi) {
     }
 }
 
+template class Vector<int>;
