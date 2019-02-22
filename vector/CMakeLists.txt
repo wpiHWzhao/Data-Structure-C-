@@ -1,8 +1,6 @@
 
-
 cmake_minimum_required (VERSION 3.12)
 
-# add_definitions(-std=c++11)
 project(vector)
 
 
@@ -13,4 +11,3 @@ add_executable(vector src/main.cpp src/copyFrom.cpp src/operatorEqual.cpp src/ex
         src/deduplicate.cpp src/traverse.cpp src/disordered.cpp src/uniquify.cpp src/binarySearch.cpp
         src/bubbleSort.cpp src/mergeSort.cpp src/sort.cpp)
 
-#target_link_libraries(path_planning z ssl uv uWS)
