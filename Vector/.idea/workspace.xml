@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="vector" targetName="vector" />
     </generated>
@@ -12,28 +12,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0946e0e3-3d1a-48e4-b140-1768fbbf4195" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binarySearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarySearch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bubbleSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bubbleSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copyFrom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/copyFrom.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deduplicate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/deduplicate.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/disordered.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/disordered.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/expand.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/expand.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/find.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/find.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/insert.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/insert.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeSort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operatorBrackets.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/operatorBrackets.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operatorEqual.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/operatorEqual.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/remove.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/remove.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shrink.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/shrink.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/swap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/traverse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/traverse.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uniquify.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/uniquify.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unsort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/unsort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/constructor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/copyNodes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/deduplicate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/destructor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/disordered.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/find.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/init.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/insert.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/insertionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/listBracket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/listClear.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/listNode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/listNodePosi_insertAsPred.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/listNodePosi_insertAsSucc.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/merge.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/mergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/remove.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/reverse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/selectMax.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/selectionSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../List/src/traverse.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/vector.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/vector.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/Vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/binarySearch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/bubbleSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/copyFrom.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/deduplicate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/disordered.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/expand.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/find.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/insert.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/mergeSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/operatorBrackets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/operatorEqual.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/remove.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/shrink.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/swap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/traverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/uniquify.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vector/src/unsort.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,77 +79,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Vector.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="596">
-                    <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-                    <folding>
-                      <element signature="e#181#193#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="195">
-                    <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="208089184">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="52" />
-          <entry key="h" value="2" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="2" />
-          <entry key="ObjectiveC" value="54" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="4501" />
-          <entry key="h" value="1006" />
-          <entry key="txt" value="222" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="222" />
-          <entry key="Doxygen file" value="2" />
-          <entry key="ObjectiveC" value="5505" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/swap.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/remove.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#70#82#0" expanded="true" />
                 <element signature="e#274#286#0" expanded="true" />
@@ -172,14 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -252,25 +218,19 @@
         <option value="$PROJECT_DIR$/src/unsort.cpp" />
         <option value="$PROJECT_DIR$/src/find.cpp" />
         <option value="$PROJECT_DIR$/src/sort.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/operatorMoveLeft.cpp" />
         <option value="$PROJECT_DIR$/src/Vector.h" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2912" />
+    <option name="y" value="24" />
+    <option name="width" value="928" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,28 +238,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="vector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vector" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vector" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/playground" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../List" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -341,52 +286,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550617120938</updated>
-      <workItem from="1550617122349" duration="29113000" />
+      <workItem from="1550617122349" duration="29813000" />
+      <workItem from="1551229356325" duration="98000" />
+      <workItem from="1551230231602" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29113000" />
+    <option name="totallyTimeSpent" value="31145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="1985" y="-4" width="1855" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13045882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13377556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.3029001" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" weight="0.24678363" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32975295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3029001" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.24678363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/permute.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/removeOne.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/permute.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/removeOne.cpp" />
     <entry file="file://$PROJECT_DIR$/src/bubbleSort.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -469,16 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/operatorMoveLeft.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operatorMoveLeft.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -489,10 +420,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarySearch.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#70#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/operatorBrackets.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#70#82#0" expanded="true" />
+            <element signature="e#178#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,45 +465,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swap.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#70#82#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/remove.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#70#82#0" expanded="true" />
-            <element signature="e#274#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/operatorBrackets.cpp">
+    <entry file="file://$PROJECT_DIR$/src/binarySearch.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#70#82#0" expanded="true" />
-            <element signature="e#178#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/expand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#70#82#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,12 +496,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/expand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#70#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/remove.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#70#82#0" expanded="true" />
+            <element signature="e#274#286#0" expanded="true" />
           </folding>
         </state>
       </provider>
