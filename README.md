@@ -5,3 +5,8 @@ In `vector/src`:
 
 * Bubble Sort -- Complexity O(n^2^)
 * Merge Sort -- Complexity O(nlogn)
+
+In `List/src`:  
+
+* Selection Sort --  Complexity O(n^2^)
+* Insertion Sort -- Complexity O(n^2^)
